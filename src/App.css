@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+ :root {
+  --bg-color: rgb(21, 21, 21);
+  --button-color: rgb(52, 52, 52);
+  --text-color: #fff;
+ }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.dark {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.light {
+  background-color: var(--text-color);
+  color: var(--bg-color);
 }
